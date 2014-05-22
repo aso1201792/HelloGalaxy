@@ -100,4 +100,24 @@
         android:layout_toRightOf="@+id/linearLayout1"
         android:text="OK" />
 
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mediaController1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="83dp" >
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="43dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </RelativeLayout>
