@@ -42,7 +42,7 @@
                     android:text="First Name" />
 
                 <EditText
-                    android:id="@+id/editText1"
+                    android:id="@+id/edtFirst"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" >
@@ -64,7 +64,7 @@
                     android:text="Family Name" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/edtFamily"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" />
@@ -84,14 +84,14 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
+        android:layout_alignBaseline="@+id/btnOK"
+        android:layout_alignBottom="@+id/btnOK"
         android:layout_marginLeft="38dp"
         android:layout_toRightOf="@+id/mediaController1"
         android:text="Cancel" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout2"
@@ -104,13 +104,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/mediaController1"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/btnOK"
         android:layout_marginTop="83dp" >
 
     </GridLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txvMsg"
         android:layout_width="145dp"
         android:layout_height="58dp"
         android:layout_alignLeft="@+id/linearLayout2"
